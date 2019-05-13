@@ -16,7 +16,7 @@
         default = "awesome";
         awesome = {
           enable = true;
-          noArgb = true;
+          noArgb = false;
         };
       };
     };
