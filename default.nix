@@ -9,12 +9,15 @@
 
   hardware.brightnessctl.enable = true;
 
-  services.xserver = {
-    windowManager = {
-      default = "awesome";
-      awesome = {
-        enable = true;
-        noArgb = true;
+  services = {
+    compton.enable = true;
+    xserver = {
+      windowManager = {
+        default = "awesome";
+        awesome = {
+          enable = true;
+          noArgb = true;
+        };
       };
     };
   };
